@@ -1,4 +1,4 @@
-package com.saulodev.calculadro_imc
+package com.saulodev.calculadora_imc
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

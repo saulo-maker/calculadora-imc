@@ -1,4 +1,4 @@
-package com.saulodev.calculadro_imc
+package com.saulodev.calculadora_imc
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -16,7 +16,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.saulodev.calculadro_imc.ui.theme.CalculadroimcTheme
+import com.saulodev.calculadora_imc.ui.theme.CalculadroimcTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -47,10 +47,8 @@ fun Main(shape: Shape) {
             .background(Color.Black),
         elevation = 10.dp
     ) {
-        Box {
-            Column(modifier = Modifier.padding(10.dp)) {
-                Text(text = "CALCULATION IMC")
-            }
+        Column(modifier = Modifier.padding(10.dp)) {
+            Text(text = "CALCULATOR IMC")
         }
     }
 }

@@ -1,4 +1,4 @@
-package com.saulodev.calculadro_imc
+package com.saulodev.calculadora_imc
 
 import org.junit.Test
 

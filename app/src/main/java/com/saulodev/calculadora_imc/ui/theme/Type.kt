@@ -1,4 +1,4 @@
-package com.saulodev.calculadro_imc.ui.theme
+package com.saulodev.calculadora_imc.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle
