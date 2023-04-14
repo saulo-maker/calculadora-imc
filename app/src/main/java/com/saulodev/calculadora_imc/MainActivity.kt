@@ -48,7 +48,7 @@ fun Main(shape: Shape) {
         elevation = 10.dp
     ) {
         Column(modifier = Modifier.padding(10.dp)) {
-            Text(text = "CALCULATOR IMC")
+            Text(text = "CALCULATOR IMC BRAZIL")
         }
     }
 }
